@@ -1,0 +1,161 @@
+:root {
+  --bg: #0e1014;
+  --main: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("https://cdn.glitch.global/1326f12e-0200-4e1f-a58b-f0845afd1c72/AlteHaasGroteskBold.ttf?v=1678786579489");
+}
+
+body {
+/*   font-family: Arial, Helvetica, sans-serif; */
+  font-family: myFirstFont;
+  background-color: var(--bg);
+  color: var(--main);
+  text-align: center;
+  overflow-x: hidden;
+}
+
+div.m {
+  display: inline-block;
+  background: rgba(255,255,255,0.05);
+  padding: 5em;
+  margin: 10vw;
+  margin-top: 25vh;
+  border-radius: 15px;
+  position: relative;
+}
+
+div.list {
+  margin: 1em -3em;
+  padding: 1em 5em;
+}
+
+.list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list ul li {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 1em;
+  margin: -1em;
+}
+
+a:before:hover + a {
+  color: black;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: calc(100% - 2em);
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 1em;
+  left: 1em;
+  border-radius: 100px;
+  background-color: var(--main);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in-out;
+}
+
+a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.button {
+  background-color: rgba(255,255,255,0.2);
+  box-shadow: 0px 0px 10px 5px rgba(100,100,100,0.2);
+  padding: 1em 3em;
+  margin: 5em;
+  margin-top: 8em;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.03);
+}
+
+.button:after {
+  display: none;
+}
+
+.button.clicked {
+  transform: translateY(150px);
+}
+
+.ani {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .ani {
+  opacity: 0;
+}
+
+.gdiv {
+  width: 350px;
+  height: 300px;
+}
+
+.vcc {
+  background: rgba(0,70,70,1);
+  width: 300px;
+  height: 150px;
+  display: none;
+  opacity: 0;
+  margin-top: 6em;
+  transition: all 0.2s;
+  border-radius: 15px;
+  animation: infinite linear genIn 1s;
+  position: absolute;
+  left: calc(50% - 150px);
+  top: calc(40% - 75px);
+  transform: scale3d(1,5,2);
+}
+
+.vcc.c {
+  opacity: 1;
+}
+
+@keyframes genIn {
+  0% {
+    transform: rotateX(225deg);
+  }
+  100% {
+    transform: rotateX(45deg);
+  }
+}
