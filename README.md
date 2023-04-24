@@ -5,31 +5,6 @@ Please stay safe everyone. Keep sharp objects far away from your body parts.
 ❗ 📦 COMING SOON 📦 ❗
 ```
 
-*Shoutout to my twizzies*
-
-**`Luminesce`**<br>
-`Chromatic`<br>
-`Nexus`<br>
-`Nimbus`<br>
-`Serendipity`<br>
-`Mystify`<br>
-`Enchanté`<br>
-`Euphoria`<br>
-**`Halcyon`**<br>
-`Infinity`<br>
-`Celestia`<br>
-`Ethereal`<br>
-**`Luminous`**<br>
-`Radiance`<br>
-`Enigma`<br>
-**`Juliet`**<br>
-`Phoenix`<br>
-`Mirage`<br>
-`Aquamarine`<br>
-`Catalyst`<br>
-**`Solaris`**<br>
-
-# (Best Automatic Systems 2023)
 ## Provided API for:
 - Crypto (wallet, transactions)
 - Fiat (0% fee gateways)
