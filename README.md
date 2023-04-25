@@ -5,7 +5,7 @@ Please stay safe everyone. Keep sharp objects far away from your body parts.
 ❗ 📦 COMING SOON 📦 ❗
 ```
 
-## Provided API for:
+## Providing API for:
 - Crypto (wallet, transactions)
 - Fiat (0% fee gateways)
 - VCC Generators (lowest fees, unlimited)
