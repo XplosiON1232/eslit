@@ -2,7 +2,7 @@
 Please stay safe everyone. Keep sharp objects far away from your body parts. 
 
 ```fix
-❗ 📦 COMING SOON 📦 ❗
+❗❗ 📦 COMING SOON 📦 ❗❗
 ```
 
 ## Providing API for:
